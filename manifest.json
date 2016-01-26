@@ -1,0 +1,11 @@
+{
+  "name": "Todo Hud",
+  "description": "replace chrome new tab page with personal todo list, powered by LeanCloud",
+  "version": "0.1",
+  "incognito": "split",
+  "icons": { "128": "todo.png" },
+  "chrome_url_overrides": {
+    "newtab": "redirect.html"
+  },
+  "manifest_version": 2
+}
